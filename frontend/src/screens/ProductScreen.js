@@ -66,11 +66,12 @@ const ProductScreen = ({ match }) => {
                   </Col>
                 </Row>
               </ListGroup.Item>
+
               <ListGroup.Item>
                 <Button
-                  className='btn-block'
+                  className='btn btn-block'
                   type='button'
-                  style={{ marginLeft: 'auto' }}
+                  align='centered'
                   disabled={product.countInStock === 0}
                 >
                   Add To Cart
